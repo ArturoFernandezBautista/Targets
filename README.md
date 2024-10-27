@@ -6,6 +6,9 @@ This project utilizes a YOLOv5 model to detect shooting targets (referred to as 
 - **`bot_dianas.py`**: Receives images, runs detection using YOLOv5, and calculates a score based on target accuracy.
 - **`bot_dianas_train.py`**: Allows image confirmation and adds confirmed images to the training dataset, with an option to retrain the YOLOv5 model.
 
+![Telegram Example](./telegram.gif)
+![Live Example](./camera.gif)
+
 ## Prerequisites
 
 - **Python 3.8+**
